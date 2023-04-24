@@ -189,16 +189,16 @@ const HomeNumber = () => {
       <div className='callForm'>
         <h1 className="about-title text-[30px]">Schedule a One-on-One Call</h1>
         <form className='roomCodeForm'>
-          <div>
-            <label>Name: </label>
+          <div className='flex justify-center items-center'>
+            <div><label>Name: </label></div>
             <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Enter Your Name" className="border rounded px-4 py-2 mt-5" required/>
           </div>
-          <div>
-            <label>Email: </label>
+          <div className='flex justify-center items-center'>
+            <div><label>Email: </label></div>
             <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" placeholder="Enter Your Email ID" className="border rounded px-4 py-2 mt-5" required/>
           </div>
-          <div>
-            <label>Date & Time: </label>
+          <div className='flex justify-center items-center'>
+            <div><label>Date & Time: </label></div>
             <input value={dt} onChange={(e) => setDt(e.target.value)} type="datetime-local" className="border rounded px-4 py-2 mt-5" required></input>
           </div>
           
@@ -208,13 +208,13 @@ const HomeNumber = () => {
 
         </form>
       </div>
-      <div className='callJoin'>
+      {/* <div className='callJoin'>
         <h1 className="about-title text-[30px]">One on One Video Call</h1>
         <input value={value} onChange={(e) => setValue(e.target.value)} type="text" placeholder="Enter Room Code" className="border rounded px-4 py-2 mt-5"/>
         <div className="flex justify-center mt-5">
           <button onClick={handleJoinRoom} className="py-1 px-7 mb-3 text-white font-bold bg-[#1551b8] border rounded hover:text-[#1551b8] hover:bg-white">Join</button>
         </div>
-      </div>
+      </div> */}
       
     </div>
     
