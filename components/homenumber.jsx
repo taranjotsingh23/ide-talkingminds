@@ -186,7 +186,7 @@ const HomeNumber = () => {
         </div>
       </Modal>
     <div className="about aboutCall">
-      <div className='callForm'>
+      <div className='callForm text-center'>
         <h1 className="about-title text-[30px]">Schedule a One-on-One Call</h1>
         <form className='roomCodeForm'>
           <div className='flex justify-center items-center'>

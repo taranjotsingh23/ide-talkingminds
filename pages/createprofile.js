@@ -17,7 +17,10 @@ const Profile = () => {
     const [loading,setLoading] = useState(false)
     const [gender, setGender] = useState('')
     const [userid,setUserId] = useState('')
-    const url = "http://localhost:5000/api/profile/updateProfile";
+    // const url = "http://localhost:5000/api/profile/updateProfile";
+    
+    const url = "https://talking-minds-backend.onrender.com/api/profile/updateProfile";
+    
     // const url = "https://talkingminds-backend.onrender.com/api/profile/updateProfile";
     const router = useRouter()
 

@@ -40,7 +40,7 @@ const Login = () => {
             body: JSON.stringify(data),
         };
 
-        fetch('https://talking-minds-backend-part.vercel.app/api/user/login', requestOptions)
+        fetch('https://talking-minds-backend.onrender.com/api/user/login', requestOptions)
             .then((response) => {
                 // console.log("response", response.json())
                 return response.json();

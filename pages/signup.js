@@ -68,7 +68,7 @@ const Signup = () => {
             body: JSON.stringify(data),
         };
 
-        fetch('https://talking-minds-backend-part.vercel.app/api/user/signup', requestOptions)
+        fetch('https://talking-minds-backend.onrender.com/api/user/signup', requestOptions)
             .then((response) => {
                 if (response.status === 400) {
                     toast.error(

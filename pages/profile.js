@@ -24,9 +24,12 @@ const UserProfile = () => {
     const [profilePictureURL,setprofilePictureURL] = useState('')
     const [updateDetails,setUpdateDetails] = useState(false)
     const [loading,setLoading] = useState(false)
-    const url = "http://localhost:5000/api/profile/getProfile/"+userId;
-    const url1 = "http://localhost:5000/api/profile/changeProfile";
-    
+    // const url = "http://localhost:5000/api/profile/getProfile/"+userId;
+    // const url1 = "http://localhost:5000/api/profile/changeProfile";
+    const url = "https://talking-minds-backend.onrender.com/api/profile/getProfile/"+userId;
+    const url1 = "https://talking-minds-backend.onrender.com/api/profile/changeProfile";
+
+
     // https://talkingminds-backend.onrender.com/
     
     // const url = "https://talkingminds-backend.onrender.com/api/profile/getProfile/"+userId;

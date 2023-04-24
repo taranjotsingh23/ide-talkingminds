@@ -49,7 +49,9 @@ const SelfAssessment = () => {
         setLoggedIn(localStorage.getItem('loggedIn'));
         // setUserId(JSON.parse(localStorage.getItem('userid')))
     }, [])
-    const url = "http://localhost:5000/api/assessment/selfassessment2";
+    // const url = "http://localhost:5000/api/assessment/selfassessment2";
+    
+    const url = "https://talking-minds-backend.onrender.com/api/assessment/selfassessment2";
     const router = useRouter();
 
     const questions = [

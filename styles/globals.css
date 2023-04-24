@@ -124,7 +124,7 @@ a {
 }
 
 .roomCodeForm input {
-  width: 60%;
+  width: 100%;
 }
 
 .roomCodeForm label {
@@ -133,7 +133,10 @@ a {
 }
 
 .callForm, .callJoin {
-  width: 50%;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-para {
