@@ -213,7 +213,8 @@ const SelfAssessment = () => {
         } else {
           setShowResults(true);
         //   console.log("///////////////",hospitalized)
-          handleSubmit();
+          // handleSubmit();
+          setMessage("We're here for you. Please Contact Us for a Free Consultation session with our Expert");
         }
 
       };
