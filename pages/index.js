@@ -24,7 +24,7 @@ export default function Home() {
       {/* <HomeNumber /> */}
       <Content />
       <Premium />
-      <Meta />
+      {/* <Meta /> */}
       <Footer />
       <Chat />
       <VoiceAlanAi />
