@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;400;700;800;900&family=Syncopate&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  color: red;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.navbar {
+  color: #325343;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar2 {
+  background-color: #325343;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.nav-links {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.login,
+.signup {
+  border: 1px solid #9bb3e3;
+  background-color: #9bb3e3;
+  color: #07337f;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hero {
+  position: relative;
+  padding-top:6rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-para {
+  /* position: absolute;
+  top: 150px; */
+  line-height: 3rem;
+  width: 30%;
+  padding-top: 10rem;
+  /* margin-left: 30px; */
+  font-size: 20px;
+  color: #07337f;
+}
+
+.hey {
+  font-size: 60px;
+}
+
+.about {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutCall {
+  flex-direction: row;
+}
+
+.roomCodeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.roomCodeForm div {
+  width: 100%;
+  border-right: #07337f 2px solid;
+}
+
+.roomCodeForm input {
+  width: 60%;
+}
+
+.roomCodeForm label {
+  width: 20%;
+  margin-right: 10%;
+}
+
+.callForm, .callJoin {
+  width: 50%;
+}
+
+.about-para {
+  width: 50%;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.about-box {
+  padding: 5px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+
+.content-box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 300px;
+  width: 30%;
+}
+
+.mental-education {
+  flex-direction: row-reverse;
+  background-color: #9bb3e3;
+  margin-bottom: 0px;
+}
+
+.vent-out {
+  height: 100vh;
+  margin-bottom: 0px;
+}
+
+.footer {
+  background-color: linear-gradient(#f7f0e6 60%,#fffcf6 80%);
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footlink {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-links {
+  margin-bottom: 10px;
+}
+
+.list-quiz li{
+  background-color:#9bd58b;
+  padding: 16px;
+  border: 3px solid white;
+  font-size:20px;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+.list-quiz li:hover{
+  background-color:#325343;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar,
+  .navbar2 {
+    font-size: 8px;
+  }
+
+  .navlink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .signup {
+    margin-top: 5px;
+  }
+
+  .banner {
+    height: 60vh;
+  }
+
+  .hey {
+    font-size: 40px;
+  }
+
+  .hero-para {
+    font-size: 18px;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 2rem;
+    padding-top: 2rem;
+    /* top: 200px; */
+  }
+
+  .about-para {
+    width: 90%;
+  }
+
+  .about-container {
+    margin-top: 20px;
+  }
+
+  .content-box {
+    flex-direction: column;
+  }
+
+  .content-box div {
+    width: 90%;
+  }
+}
+
+.rightClose {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
+
+.ethTitle {
+  margin-top: 50px;
+}
+
+.assessmentForm span {
+  width: 45%;
+}
+
+.assessmentForm span:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.education input {
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
