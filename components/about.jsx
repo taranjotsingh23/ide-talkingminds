@@ -7,6 +7,7 @@ const About = () => {
         <h1 className="about-title text-[40px]">What is Talking Minds?</h1>
         <p className="about-para mt-10">
           A directory of mental health resources, such as self assessment tools,
+
           forum or discussion groups, consultancy sessions from the experts, crisis support, education resources and
           self-help resources, along with information about various mental
           health disorders.
@@ -35,7 +36,7 @@ const About = () => {
             <h2>Vent It Out</h2>
           </div>
           <div className="about-box">
-            <img src="/consult.jpg" alt="mood-track" width="60px" height="60px" />
+            <img src="/consult1.jpg.png" alt="mood-track" width="60px" height="60px" />
             <h2>Consult</h2>
           </div>
         </div>

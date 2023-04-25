@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: "Epilogue", sans-serif;
   overflow-x: hidden;
+  background-color: #f7f0e6;
 }
 
 a {
@@ -31,18 +32,19 @@ a {
 }
 
 .navbar {
-  color: #325343;
+  color: darkgreen;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
+  height: 5rem;
 }
 
 .navbar2 {
-  background-color: #325343;
+  background-color: darkgreen;
   color: white;
   display: flex;
   flex-direction: row;
@@ -51,6 +53,7 @@ a {
   width: 100%;
   position: fixed;
   z-index: 2;
+  height: 5rem;
 }
 
 .nav-links {
@@ -58,11 +61,19 @@ a {
   margin-right: 8px;
 }
 
-.login,
+.login{
+  border: 1px solid darkgreen;
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+
+}
 .signup {
-  border: 1px solid #9bb3e3;
-  background-color: #9bb3e3;
-  color: #07337f;
+  border: 1px solid darkgreen;
+  background-color: white;
+  color: black;
   margin-left: 5px;
   padding: 5px;
   border-radius: 5px;
@@ -94,6 +105,7 @@ a {
 
 .hey {
   font-size: 60px;
+  font-family: fantasy;
 }
 
 .about {
@@ -180,7 +192,6 @@ a {
 
 .mental-education {
   flex-direction: row-reverse;
-  background-color: #9bb3e3;
   margin-bottom: 0px;
 }
 
@@ -203,7 +214,11 @@ a {
 
 .footer-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .foot-links {
@@ -254,6 +269,8 @@ a {
 
   .hey {
     font-size: 40px;
+    font-family: fantasy;
+    font-weight: 100;
   }
 
   .hero-para {
@@ -332,4 +349,9 @@ a {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+a:hover{
+
+  background-color: black;
 }

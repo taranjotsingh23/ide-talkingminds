@@ -9,11 +9,10 @@ const Hero = () => {
         <div className="hero-para" 
         // style={{marginLeft:"20%"}}
         >
-          <span className="hey"> HEY! </span> <br /> You, yourself, as much as
-          anybody in the entire universe, deserve your love and affection.
+          <span className="hey"> STATE OF MIND </span> <br /> Your mental health is everything-prioritize it. Make the time like your life depends on it, because it does. Mel Robbins"
         </div>
         <div>
-          <img src="/mentalhealth.jpeg" alt="hero-banner" 
+          <img src="./stress.jpg.png" alt="hero-banner" 
           // style={{marginLeft:"55%", paddingTop:"5%"
           // }} 
         width={500} 

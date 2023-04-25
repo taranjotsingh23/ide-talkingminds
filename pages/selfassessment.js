@@ -124,7 +124,7 @@ const SelfAssessment = () => {
     }
     return (
         <>
-            <div className="flex flex-row justify-around items-center w-full bg-[#1551b8] text-white text-[8px] md:text-[16px]">
+            <div className="flex flex-row justify-around items-center w-full bg-[darkgreen] text-white text-[8px] md:text-[16px] h-20">
                 <img src="/logo.jpg" alt="logo" width={100} height={100} onClick={() => router.push("/")}
                     className="cursor-pointer" />
                 <div className="navlink">
