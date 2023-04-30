@@ -97,7 +97,7 @@ const About = () => {
             </div>
             <h1 className="text-center text-[40px] font-bold mt-10">OUR TEAM</h1>
             <div className="grid lg:grid-cols-2 items-center lg:w-[70%] md:w-[50%] my-20 mx-auto">
-                <div className="border mx-5 p-5 flex flex-col items-center w-[350px] h-[430px] mb-10 bg-[#f1f5fb] shadow-xl text-[#1551b8] rounded-xl">
+                {/* <div className="border mx-5 p-5 flex flex-col items-center w-[350px] h-[430px] mb-10 bg-[#f1f5fb] shadow-xl text-[#1551b8] rounded-xl">
                     <img src="/sukhbir.jpg" alt="Sukhbir Singh" width={300} height={300} className='rounded-2xl' />
                     <h1 className="text-[25px] mt-5">Sukhbir Singh</h1>
                     <p className="font-bold">ML AI</p>
@@ -107,16 +107,16 @@ const About = () => {
                     <img src="/harjas.jpeg" alt="harjas" width={300} height={300} className='rounded-2xl' />
                     <h1 className="text-[25px] mt-5">Harjas Kaur</h1>
                     <p className="font-bold">Frontend developer</p>
-                </div>
+                </div> */}
                 <div className="border mx-5 p-5 flex flex-col items-center w-[350px] h-[430px] mb-10 bg-[#f1f5fb] shadow-xl text-[#1551b8] rounded-xl">
-                    <img src="/HarpreetSingh.jpeg" alt="Harpreet Singh" width={300} height={300} className='rounded-2xl' />
-                    <h1 className="text-[25px] mt-5">Harpreet Singh</h1>
-                    <p className="font-bold">FrontEnd Developer</p>
+                    <img src="/ripu1.png" alt="Ripudaman Singh" width={300} height={900} className='rounded-2xl' />
+                    <h1 className="text-[25px] mt-5">Ripudaman Singh</h1>
+                    <p className="font-bold">FrontEnd, ML Developer</p>
                 </div>
                 <div className="border mx-5 p-5 flex flex-col items-center w-[350px] h-[430px] mb-10 bg-[#f1f5fb] shadow-xl text-[#1551b8] rounded-xl">
                     <img src="/taranjot.jpg" alt="Taranjot Singh" width={300} height={300} className='rounded-2xl' />
                     <h1 className="text-[25px] mt-5">Taranjot Singh</h1>
-                    <p className="font-bold">BackEnd Developer</p>
+                    <p className="font-bold">BackEnd, Web 3.0 Developer</p>
                 </div>
             </div>
             <Footer />
